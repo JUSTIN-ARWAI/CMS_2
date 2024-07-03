@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: orangered;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display:inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration:none;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+}
+
+main {
+    padding: 10px;
+    background-color: yellowgreen;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    align-content: top;
+    line-height: 20px;
+}
+    
+section form label {
+    padding-top: 1px;
+    margin-top: 0px;
+}
+
+footer {
+    background-color: #333;
+    color: greenyellow;
+    text-align: center;
+    padding-top: 2px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 18px;
+    height: 70px;
+}
+
+footer p{
+    margin-top: 3px;
+}
+
+table {
+    width: 100%;
+    border-collapse:separate;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 3px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align:left;
+    color: green;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4d;
+    color: cyan;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+form label {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-top: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"]
+input[type="date"]
+input[type="number"]{
+    padding: 10px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    border: 1px solid #ddd;
+    height: 3px;
+    border-radius: 10px;
+}
+
+textarea{
+    padding: 10px;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    border: 2px solid #ddd;
+    height: 4px;
+}
+
+button[type="submit"] {
+    align-self: flex-start;
+}
+
+form span{
+    margin-top: 2px;
+    padding-left: 40%;
+    color: red;
+    text-align: center;
+}
+
+abbr{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 40%;
+    text-align: center;
+}
+
+btn{
+    color: red;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+btn:hover{
+    color: greenyellow;
+}
+
+soc{
+    padding-top: 0;
+    margin-top: 0;
+    padding-left: 44%;
+    text-align: center;
+    color: greenyellow;
+}
+
+.icons{
+    padding-left: 38%;
+}
+
+icons a{
+    text-decoration: none;
+    color: orangered;
+    padding-top: 0;
+    margin-top: 0;
+    align-content: center;
+}
+.icons ion-icon{
+    color: greenyellow;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
